@@ -4,26 +4,41 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "What is your user name?",
-      name: "username"
+      message: "What is the project's title?",
+      name: "title"
     },
     {
-      type: "password",
-      message: "What is your password?",
-      name: "password"
+      type: "input",
+      message: "Enter description",
+      name: "description"
     },
     {
-      type: "password",
-      message: "Re-enter password to confirm:",
-      name: "confirm"
-    }
+      type: "input",
+      message: "Enter installation instructions",
+      name: "instructions"
+    },
+    {
+        type: "input",
+        message: "Enter usage information",
+        name: "usage"
+    },
+    {
+        type: "input",
+        message: "Enter contribution guidelines",
+        name: "contribution"
+    },
+    {
+        type: "input",
+        message: "Enter test instructions",
+        name: "test"
+    },
   ])
   .then(function(response) {
 console.log(response)
-    if (response.confirm === response.password) {
-      console.log("Success!");
-    }
-    else {
-      console.log("You forgot your password already?!");
-    }
+    // if (response.confirm === response.password) {
+    //   console.log("Success!");
+    // }
+    // else {
+    //   console.log("You forgot your password already?!");
+    // }
   });
