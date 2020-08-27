@@ -32,6 +32,22 @@ inquirer
         message: "Enter test instructions",
         name: "test"
     },
+    {
+        type: "list",
+        message: "Choose license type",
+        choices: ["license1", "2", "3"],
+        name: "license"
+    },
+    {
+        type: "input",
+        message: "Enter your GitHub username",
+        name: "github"
+    },
+    {
+        type: "input",
+        message: "Enter your email address",
+        name: "email"
+    },
   ])
   .then(function(response) {
 console.log(response)
