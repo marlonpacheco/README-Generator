@@ -1,10 +1,11 @@
 # README Generator
-
+```
 When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
-
+```
 ## Requirements
+```
 this requires 'fs' and 'inquirer' node modules
-
+```
 
 ## User Story
 
@@ -35,23 +36,7 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Screenshot
-![](ScreenShot.png)
 
-## Submission Requirements
+![](Assets/ScreenShot.png)
 
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works.
-
-* Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* A walkthrough video demonstrating the functionality of the application. 
-
-* A sample README.md file for a project repository generated using your application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
